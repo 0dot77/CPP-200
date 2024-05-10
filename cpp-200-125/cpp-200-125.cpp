@@ -21,9 +21,9 @@ int main()
     string type = TmpFunc(1, 22.3);
 
     if (type == "double")
-        cout << "double ÀÚ·áÇüÀÔ´Ï´Ù." << endl;
+        cout << "double ï¿½Ú·ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½." << endl;
     else
-        cout << "double ÀÚ·áÇüÀÌ ¾Æ´Õ´Ï´Ù." << endl;
+        cout << "double ï¿½Ú·ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´Õ´Ï´ï¿½." << endl;
     
     return 0;
 }

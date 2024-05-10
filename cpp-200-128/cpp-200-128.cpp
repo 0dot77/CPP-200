@@ -8,12 +8,12 @@ using namespace std;
 
 void Type1(string msg, int no, double value)
 {
-    cout << msg << ", ¿¡·¯ ¹øÈ£ " << no << ", ¿À·ù°ª " << value << endl;
+    cout << msg << ", ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È£ " << no << ", ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ " << value << endl;
 }
 
 void Type2(int no, double value)
 {
-    cout << no << ", ¿À·ù°ª " << value << endl;
+    cout << no << ", ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ " << value << endl;
 }
 
 template<typename... T>

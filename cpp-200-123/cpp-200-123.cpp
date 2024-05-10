@@ -11,7 +11,7 @@ enum class TmpEnumClass : int {};
 
 int main()
 {
-	cout << boolalpha; // ÄÜ¼Ö¿¡ Ãâ·ÂµÉ °á°ú¸¦ boolean À¸·Î ¼³Á¤ÇÑ´Ù.
+	cout << boolalpha; // ï¿½Ü¼Ö¿ï¿½ ï¿½ï¿½Âµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ boolean ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
 
 	cout << "== is_integral ==" << endl;
 	cout << is_integral<TmpEnum>::value << endl;
@@ -19,7 +19,7 @@ int main()
 	cout << is_integral<signed int>::value << endl;
 	cout << is_integral<unsigned int>::value << endl;
 	cout << is_integral<double>::value << endl;
-	cout << is_integral<bool>::value << endl; // Á¤¼ö´Â ¾Æ´ÏÁö¸¸, 0°ú 1·Î ³ªÅ¸³¾ ¼ö ÀÖ±â ¶§¹®¿¡ true
+	cout << is_integral<bool>::value << endl; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´ï¿½ï¿½ï¿½ï¿½ï¿½, 0ï¿½ï¿½ 1ï¿½ï¿½ ï¿½ï¿½Å¸ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ true
 
 	cout << "== is_enum ==" << endl;
 	cout << is_signed<TmpEnum>::value << endl;
